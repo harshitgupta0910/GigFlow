@@ -141,7 +141,7 @@ PORT=5000
 MONGODB_URI=mongodb+srv://harshitgupta0910_db_user:hSMbX7iX9dDfCpvu@cluster0.qruafvs.mongodb.net/gigflow?appName=Cluster0
 JWT_SECRET=gigflow_super_secret_jwt_key_2026_harshit_project
 NODE_ENV=development
-CLIENT_URL=https://gig-flow-0.vercel.app
+CLIENT_URL=http://localhost:5173
 \`\`\`
 
 ### 3. Frontend Setup
@@ -172,7 +172,7 @@ Server runs on: https://gigflow-ops0.onrender.com
 cd frontend
 npm run dev
 \`\`\`
-App runs on: https://gig-flow-0.vercel.app
+App runs on: http://localhost:5173
 
 ### Production Build
 
