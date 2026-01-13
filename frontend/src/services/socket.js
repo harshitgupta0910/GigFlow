@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 import { store } from '../store/store';
 import { addNotification } from '../store/slices/notificationSlice';
 
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:5000';
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'https://gigflow-ops0.onrender.com';
 let socket = null;
 
 export const initSocket = (userId) => {

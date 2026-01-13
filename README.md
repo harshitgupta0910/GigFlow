@@ -152,8 +152,8 @@ npm install
 
 Create a `.env` file in the `frontend` folder:
 \`\`\`env
-VITE_API_URL=http://localhost:5000
-VITE_SOCKET_URL=http://localhost:5000
+VITE_API_URL=https://gigflow-ops0.onrender.com
+VITE_SOCKET_URL=https://gigflow-ops0.onrender.com
 \`\`\`
 
 ## 🚀 Running the Application
@@ -165,7 +165,7 @@ VITE_SOCKET_URL=http://localhost:5000
 cd backend
 npm run dev
 \`\`\`
-Server runs on: http://localhost:5000
+Server runs on: https://gigflow-ops0.onrender.com
 
 **Terminal 2 - Frontend:**
 \`\`\`bash
@@ -813,7 +813,7 @@ res.cookie('token', jwt.sign({ id: userId }, JWT_SECRET, { expiresIn: '30d' }), 
 
 #### 1. Register User
 ```
-POST http://localhost:5000/api/auth/register
+POST https://gigflow-ops0.onrender.com/api/auth/register
 Body:
 {
   "name": "Test User",
@@ -824,7 +824,7 @@ Body:
 
 #### 2. Login
 ```
-POST http://localhost:5000/api/auth/login
+POST https://gigflow-ops0.onrender.com/api/auth/login
 Body:
 {
   "email": "test@example.com",
@@ -835,7 +835,7 @@ Body:
 
 #### 3. Create Gig
 ```
-POST http://localhost:5000/api/gigs
+POST https://gigflow-ops0.onrender.com/api/gigs
 Headers:
 Cookie: token=<JWT_TOKEN>
 Body:
